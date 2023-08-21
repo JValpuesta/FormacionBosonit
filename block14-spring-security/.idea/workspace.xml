@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59e1ff46-40d4-427d-a225-31f3430fa4bf" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../block5-spring-boot/block5-command-line-runner" beforeDir="false" afterPath="$PROJECT_DIR$/../block5-spring-boot/block5-command-line-runner" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +28,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/jorge.valpuesta/IdeaProjects/FormacionBosonit/block5-spring-boot/block5-command-line-runner"
+    "last_opened_file_path": "C:/Users/jorge.valpuesta/IdeaProjects/FormacionBosonit/block14-spring-security"
   }
 }]]></component>
   <component name="RunManager">
