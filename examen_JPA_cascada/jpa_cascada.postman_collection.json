@@ -1,0 +1,183 @@
+{
+	"info": {
+		"_postman_id": "85f4b05f-c7c8-48d3-80e3-3e3e8d27eef6",
+		"name": "jpa_cascada",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28606838"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/factura/linea/1",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "outputType",
+						"value": "full",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"producto\":\"dentrifico\",\r\n    \"cantidad\":\"4\",\r\n    \"importe\":\"33\",\r\n    \"idFra\": \"1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/factura/linea/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"factura",
+						"linea",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/factura",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "nombre",
+						"value": "Pepe",
+						"type": "default"
+					},
+					{
+						"key": "poblacion",
+						"value": "Logroño",
+						"type": "default"
+					},
+					{
+						"key": "edad",
+						"value": "33",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\": \"pepe\",\r\n    \"poblacion\": \"Logroño\",\r\n    \"edad\": \"33\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/factura",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"factura"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/factura/1",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "nombre",
+						"value": "Pepe",
+						"type": "default"
+					},
+					{
+						"key": "poblacion",
+						"value": "Logroño",
+						"type": "default"
+					},
+					{
+						"key": "edad",
+						"value": "33",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\": \"pepe\",\r\n    \"poblacion\": \"Logroño\",\r\n    \"edad\": \"33\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/factura/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"factura",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/factura/3",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "nombre",
+						"value": "Pepe",
+						"type": "default"
+					},
+					{
+						"key": "poblacion",
+						"value": "Logroño",
+						"type": "default"
+					},
+					{
+						"key": "edad",
+						"value": "33",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\": \"pepe\",\r\n    \"poblacion\": \"Logroño\",\r\n    \"edad\": \"33\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/factura/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"factura",
+						"3"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

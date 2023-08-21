@@ -1,0 +1,46 @@
+//Clase que representaría el ODTO complejo de EstudiantePersona y se podría implementar como herencia de
+//EstudianteOutputDto si esta representara el Output simple
+
+package com.bosonit.block7crudvalidation.controller.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+import java.util.Date;
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
+public class EstudiantePersonaOutputDto extends EstudianteOutputDto {
+
+    int id;
+    String usuario;
+    String name;
+    String surname;
+    String company_email;
+    String personal_email;
+    String city;
+    Boolean active;
+    Date created_date;
+    String imagen_url;
+    Date termination_date;
+
+    public EstudiantePersonaOutputDto(EstudianteOutputDto estudiante) {
+        super(estudiante);
+        this.id = estudiante.getPersona().getId();
+        this.usuario = estudiante.getPersona().getUsuario();
+        this.name = estudiante.getPersona().getName();
+        this.surname = estudiante.getPersona().getSurname();
+        this.company_email = estudiante.getPersona().getCompany_email();
+        this.personal_email = estudiante.getPersona().getPersonal_email();
+        this.city = estudiante.getPersona().getCity();
+        this.active = estudiante.getPersona().getActive();
+        this.created_date = estudiante.getPersona().getCreated_date();
+        this.imagen_url = estudiante.getPersona().getImagen_url();
+        this.termination_date = estudiante.getPersona().getTermination_date();
+    }
+
+
+}

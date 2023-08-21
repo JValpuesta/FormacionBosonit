@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1a2d699e-558c-423a-a8ab-f8ca45ed2156" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../block14-spring-security/src/main/java/com/bosonit/block7crudvalidation/security/CustomAuthorizationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../block14-spring-security/src/main/java/com/bosonit/block7crudvalidation/security/JwtToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../block14-spring-security/src/main/java/com/bosonit/block7crudvalidation/security/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../block14-spring-security/src/main/java/com/bosonit/block7crudvalidation/security/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../block14-spring-security/src/main/resources/app.key" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../block14-spring-security/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../block14-spring-security/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../block14-spring-security/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../block14-spring-security/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../block14-spring-security/src/main/java/com/bosonit/block7crudvalidation/Block7CrudValidationApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../block14-spring-security/src/main/java/com/bosonit/block7crudvalidation/Block7CrudValidationApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../block14-spring-security/src/main/java/com/bosonit/block7crudvalidation/controller/dto/PersonaInputDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../block14-spring-security/src/main/java/com/bosonit/block7crudvalidation/controller/dto/PersonaInputDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../block14-spring-security/src/main/java/com/bosonit/block7crudvalidation/domain/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/../block14-spring-security/src/main/java/com/bosonit/block7crudvalidation/domain/Persona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../block14-spring-security/src/main/java/com/bosonit/block7crudvalidation/repository/PersonaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../block14-spring-security/src/main/java/com/bosonit/block7crudvalidation/repository/PersonaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../block14-spring-security/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../block14-spring-security/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2TmbgqvDwu9UOhImhCIhUz0kyty" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/jorge.valpuesta/IdeaProjects/FormacionBosonit/block14-spring-security"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.Block7CrudValidationApplication">
+    <configuration name="Block7CrudValidationApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bosonit.block7crudvalidation.Block7CrudValidationApplication" />
+      <module name="block7-crud-validation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bosonit.block7crudvalidation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EstudianteServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="block7-crud-validation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bosonit.block7crudvalidation.application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bosonit.block7crudvalidation.application" />
+      <option name="MAIN_CLASS_NAME" value="com.bosonit.block7crudvalidation.application.EstudianteServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <dir value="$PROJECT_DIR$/src/test/java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="java in block7-crud-validation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="block7-crud-validation" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="block13-testing-avanzado" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="block13-testing-avanzado" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Block7CrudValidationApplication" />
+        <item itemvalue="JUnit.java in block7-crud-validation" />
+        <item itemvalue="JUnit.EstudianteServiceTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1a2d699e-558c-423a-a8ab-f8ca45ed2156" name="Changes" comment="" />
+      <created>1691651323764</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1691651323764</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/block13_testing_avanzado$java_in_block7_crud_validation.ic" NAME="java in block7-crud-validation Coverage Results" MODIFIED="1691656626277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

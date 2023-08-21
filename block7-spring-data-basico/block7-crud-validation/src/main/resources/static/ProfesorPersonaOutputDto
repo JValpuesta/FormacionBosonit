@@ -1,0 +1,63 @@
+//Clase que representaría el ODTO complejo y se podría implementar como herencia de
+//ProfesorOutputDto si esta representara el Output simple
+
+package com.bosonit.block7crudvalidation.controller.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+public class ProfesorPersonaOutputDto extends ProfesorOutputDto {
+
+    PersonaOutputDto personaOutputDto;
+
+    public ProfesorPersonaOutputDto(ProfesorOutputDto profesor) {
+        super(profesor);
+        personaOutputDto.setId(profesor.getPersona().getId());
+        personaOutputDto.setUsuario(profesor.getPersona().getUsuario());
+        personaOutputDto.setName(profesor.getPersona().getName());
+        personaOutputDto.setSurname(profesor.getPersona().getSurname());
+        personaOutputDto.setCompany_email(profesor.getPersona().getCompany_email());
+        personaOutputDto.setPersonal_email(profesor.getPersona().getPersonal_email());
+        personaOutputDto.setCity(profesor.getPersona().getCity());
+        personaOutputDto.setActive(profesor.getPersona().getActive());
+        personaOutputDto.setCreated_date(profesor.getPersona().getCreated_date());
+        personaOutputDto.setImagen_url(profesor.getPersona().getImagen_url());
+        personaOutputDto.setTermination_date(profesor.getPersona().getTermination_date());
+    }
+}
+package com.bosonit.block7crudvalidation.controller.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+public class ProfesorPersonaOutputDto extends ProfesorOutputDto {
+
+    PersonaOutputDto personaOutputDto;
+
+    public ProfesorPersonaOutputDto(ProfesorOutputDto profesor) {
+        super(profesor);
+        personaOutputDto.setId(profesor.getPersona().getId());
+        personaOutputDto.setUsuario(profesor.getPersona().getUsuario());
+        personaOutputDto.setName(profesor.getPersona().getName());
+        personaOutputDto.setSurname(profesor.getPersona().getSurname());
+        personaOutputDto.setCompany_email(profesor.getPersona().getCompany_email());
+        personaOutputDto.setPersonal_email(profesor.getPersona().getPersonal_email());
+        personaOutputDto.setCity(profesor.getPersona().getCity());
+        personaOutputDto.setActive(profesor.getPersona().getActive());
+        personaOutputDto.setCreated_date(profesor.getPersona().getCreated_date());
+        personaOutputDto.setImagen_url(profesor.getPersona().getImagen_url());
+        personaOutputDto.setTermination_date(profesor.getPersona().getTermination_date());
+    }
+}

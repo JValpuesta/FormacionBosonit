@@ -1,0 +1,68 @@
+
+<configuration>
+
+    <!-- ... otras configuraciones ... -->
+
+
+    <!-- Appender para la consola -->
+
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+
+        <encoder>
+
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+
+        </encoder>
+
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+
+            <level>ERROR</level>
+
+            <onMatch>DENY</onMatch>
+
+            <onMismatch>ACCEPT</onMismatch>
+
+        </filter>
+
+    </appender>
+
+
+    <!-- Appender para el archivo de recursos -->
+
+    <appender name="FILE" class="ch.qos.logback.core.FileAppender">
+
+        <file>C:\Users\jorge.valpuesta\IdeaProjects\FormacionBosonit\block5-spring-boot\block5-logging\src\main\resources\error.log</file>
+
+        <encoder>
+
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+
+        </encoder>
+
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+
+            <level>ERROR</level>
+
+            <onMatch>ACCEPT</onMatch>
+
+            <onMismatch>DENY</onMismatch>
+
+        </filter>
+
+    </appender>
+
+
+    <!-- Logger raíz -->
+
+    <root level="debug">
+
+        <appender-ref ref="CONSOLE" />
+
+        <appender-ref ref="FILE" />
+
+    </root>
+
+
+    <!-- ... otras configuraciones ... -->
+
+</configuration>

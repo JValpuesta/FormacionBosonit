@@ -1,0 +1,9 @@
+2023-07-16T16:38:04.564+02:00  INFO 9520 --- [main] c.b.b.Block5LoggingApplication           : Starting Block5LoggingApplication using Java 17.0.7 with PID 9520 (C:\Users\Nitropc\IdeaProjects\FormacionBosonit\block5-spring-boot\block5-logging\target\classes started by Jorge in C:\Users\Nitropc\IdeaProjects\FormacionBosonit\block5-spring-boot\block5-logging)
+2023-07-16T16:38:04.567+02:00 DEBUG 9520 --- [main] c.b.b.Block5LoggingApplication           : Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-16T16:38:04.569+02:00  INFO 9520 --- [main] c.b.b.Block5LoggingApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-07-16T16:38:06.764+02:00  INFO 9520 --- [main] c.b.b.Block5LoggingApplication           : Started Block5LoggingApplication in 2.956 seconds (process running for 3.541)
+2023-07-16T16:38:10.656+02:00 TRACE 9520 --- [http-nio-8080-exec-2] .Block5LoggingApplication$MainController : Mensaje a nivel de TRACE
+2023-07-16T16:38:10.656+02:00 DEBUG 9520 --- [http-nio-8080-exec-2] .Block5LoggingApplication$MainController : Mensaje a nivel de DEBUG
+2023-07-16T16:38:10.657+02:00  INFO 9520 --- [http-nio-8080-exec-2] .Block5LoggingApplication$MainController : Mensaje a nivel de INFO
+2023-07-16T16:38:10.657+02:00  WARN 9520 --- [http-nio-8080-exec-2] .Block5LoggingApplication$MainController : Mensaje a nivel de WARNING
+2023-07-16T16:38:10.657+02:00 ERROR 9520 --- [http-nio-8080-exec-2] .Block5LoggingApplication$MainController : Mensaje a nivel de ERROR
