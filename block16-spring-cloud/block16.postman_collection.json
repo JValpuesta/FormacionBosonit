@@ -1,0 +1,842 @@
+{
+	"info": {
+		"_postman_id": "3c29d224-e149-46e0-91f9-76d3566fffec",
+		"name": "block16",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28606838"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8082/cliente",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJsb2xpdG8iLCJhdXRob3JpdGllcyI6WyJST0xFX0FETUlOIl0sImlhdCI6MTY5MjYxNTIyOCwiZXhwIjoxNjkyNjE1ODI4fQ.YGkA56ddsZJep1_tCc_30918PbFU2MzqBYhi018Kn9Wr6XMGiLBhzHY37D-FD4n7Rnv-iM94j0cS7-XuI-UeIw",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "nombre",
+						"value": "Pepe",
+						"type": "default"
+					},
+					{
+						"key": "poblacion",
+						"value": "Logroño",
+						"type": "default"
+					},
+					{
+						"key": "edad",
+						"value": "33",
+						"type": "default"
+					},
+					{
+						"key": "h1",
+						"value": "h1",
+						"type": "default"
+					},
+					{
+						"key": "h2",
+						"value": "H2",
+						"type": "default"
+					},
+					{
+						"key": "H5",
+						"value": "h2",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\": \"xuxi\",\r\n    \"apellido\": \"perez\",\r\n    \"edad\": 5,\r\n    \"email\": \"xuxi@xuxi.com\",\r\n    \"telefono\": 6006060\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8082/cliente",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"cliente"
+					],
+					"query": [
+						{
+							"key": "var1",
+							"value": "9",
+							"disabled": true
+						},
+						{
+							"key": "var2",
+							"value": "4",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8082/viaje",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJsb2xpdG8iLCJhdXRob3JpdGllcyI6WyJST0xFX0FETUlOIl0sImlhdCI6MTY5MjYxNTIyOCwiZXhwIjoxNjkyNjE1ODI4fQ.YGkA56ddsZJep1_tCc_30918PbFU2MzqBYhi018Kn9Wr6XMGiLBhzHY37D-FD4n7Rnv-iM94j0cS7-XuI-UeIw",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "nombre",
+						"value": "Pepe",
+						"type": "default"
+					},
+					{
+						"key": "poblacion",
+						"value": "Logroño",
+						"type": "default"
+					},
+					{
+						"key": "edad",
+						"value": "33",
+						"type": "default"
+					},
+					{
+						"key": "h1",
+						"value": "h1",
+						"type": "default"
+					},
+					{
+						"key": "h2",
+						"value": "H2",
+						"type": "default"
+					},
+					{
+						"key": "H5",
+						"value": "h2",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"origin\": \"rumania\",\r\n    \"destination\": \"srilanka\",\r\n    \"departureDate\": \"2020-01-01\",\r\n    \"arrivalDate\": \"2021-01-01\",\r\n    \"status\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8082/viaje",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"viaje"
+					],
+					"query": [
+						{
+							"key": "var1",
+							"value": "9",
+							"disabled": true
+						},
+						{
+							"key": "var2",
+							"value": "4",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8082/ticket/generateTicket/1/1",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJsb2xpdG8iLCJhdXRob3JpdGllcyI6WyJST0xFX0FETUlOIl0sImlhdCI6MTY5MjYxNTIyOCwiZXhwIjoxNjkyNjE1ODI4fQ.YGkA56ddsZJep1_tCc_30918PbFU2MzqBYhi018Kn9Wr6XMGiLBhzHY37D-FD4n7Rnv-iM94j0cS7-XuI-UeIw",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "nombre",
+						"value": "Pepe",
+						"type": "default"
+					},
+					{
+						"key": "poblacion",
+						"value": "Logroño",
+						"type": "default"
+					},
+					{
+						"key": "edad",
+						"value": "33",
+						"type": "default"
+					},
+					{
+						"key": "h1",
+						"value": "h1",
+						"type": "default"
+					},
+					{
+						"key": "h2",
+						"value": "H2",
+						"type": "default"
+					},
+					{
+						"key": "H5",
+						"value": "h2",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"origin\": \"rumania\",\r\n    \"destination\": \"srilanka\",\r\n    \"departureDate\": \"2020-01-01\",\r\n    \"arrivalDate\": \"2021-01-01\",\r\n    \"status\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8082/ticket/generateTicket/1/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"ticket",
+						"generateTicket",
+						"1",
+						"1"
+					],
+					"query": [
+						{
+							"key": "var1",
+							"value": "9",
+							"disabled": true
+						},
+						{
+							"key": "var2",
+							"value": "4",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8082/cliente/1",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJsb2xpdG8iLCJhdXRob3JpdGllcyI6WyJST0xFX0FETUlOIl0sImlhdCI6MTY5MjYxNTIyOCwiZXhwIjoxNjkyNjE1ODI4fQ.YGkA56ddsZJep1_tCc_30918PbFU2MzqBYhi018Kn9Wr6XMGiLBhzHY37D-FD4n7Rnv-iM94j0cS7-XuI-UeIw",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "nombre",
+						"value": "Pepe",
+						"type": "default"
+					},
+					{
+						"key": "poblacion",
+						"value": "Logroño",
+						"type": "default"
+					},
+					{
+						"key": "edad",
+						"value": "33",
+						"type": "default"
+					},
+					{
+						"key": "h1",
+						"value": "h1",
+						"type": "default"
+					},
+					{
+						"key": "h2",
+						"value": "H2",
+						"type": "default"
+					},
+					{
+						"key": "H5",
+						"value": "h2",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\": \"xuxi\",\r\n    \"apellido\": \"perez\",\r\n    \"edad\": 5,\r\n    \"email\": \"xuxi@xuxi.com\",\r\n    \"telefono\": 6006060\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8082/cliente/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"cliente",
+						"1"
+					],
+					"query": [
+						{
+							"key": "var1",
+							"value": "9",
+							"disabled": true
+						},
+						{
+							"key": "var2",
+							"value": "4",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/cliente/1",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJsb2xpdG8iLCJhdXRob3JpdGllcyI6WyJST0xFX0FETUlOIl0sImlhdCI6MTY5MjYxNTIyOCwiZXhwIjoxNjkyNjE1ODI4fQ.YGkA56ddsZJep1_tCc_30918PbFU2MzqBYhi018Kn9Wr6XMGiLBhzHY37D-FD4n7Rnv-iM94j0cS7-XuI-UeIw",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "nombre",
+						"value": "Pepe",
+						"type": "default"
+					},
+					{
+						"key": "poblacion",
+						"value": "Logroño",
+						"type": "default"
+					},
+					{
+						"key": "edad",
+						"value": "33",
+						"type": "default"
+					},
+					{
+						"key": "h1",
+						"value": "h1",
+						"type": "default"
+					},
+					{
+						"key": "h2",
+						"value": "H2",
+						"type": "default"
+					},
+					{
+						"key": "H5",
+						"value": "h2",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\": \"xuxi\",\r\n    \"apellido\": \"perez\",\r\n    \"edad\": 5,\r\n    \"email\": \"xuxi@xuxi.com\",\r\n    \"telefono\": 6006060\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/cliente/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"cliente",
+						"1"
+					],
+					"query": [
+						{
+							"key": "var1",
+							"value": "9",
+							"disabled": true
+						},
+						{
+							"key": "var2",
+							"value": "4",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8082/viaje/1",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJsb2xpdG8iLCJhdXRob3JpdGllcyI6WyJST0xFX0FETUlOIl0sImlhdCI6MTY5MjYxNTIyOCwiZXhwIjoxNjkyNjE1ODI4fQ.YGkA56ddsZJep1_tCc_30918PbFU2MzqBYhi018Kn9Wr6XMGiLBhzHY37D-FD4n7Rnv-iM94j0cS7-XuI-UeIw",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "nombre",
+						"value": "Pepe",
+						"type": "default"
+					},
+					{
+						"key": "poblacion",
+						"value": "Logroño",
+						"type": "default"
+					},
+					{
+						"key": "edad",
+						"value": "33",
+						"type": "default"
+					},
+					{
+						"key": "h1",
+						"value": "h1",
+						"type": "default"
+					},
+					{
+						"key": "h2",
+						"value": "H2",
+						"type": "default"
+					},
+					{
+						"key": "H5",
+						"value": "h2",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\": \"xuxi\",\r\n    \"apellido\": \"perez\",\r\n    \"edad\": 5,\r\n    \"email\": \"xuxi@xuxi.com\",\r\n    \"telefono\": 6006060\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8082/viaje/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"viaje",
+						"1"
+					],
+					"query": [
+						{
+							"key": "var1",
+							"value": "9",
+							"disabled": true
+						},
+						{
+							"key": "var2",
+							"value": "4",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/viaje/1",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJsb2xpdG8iLCJhdXRob3JpdGllcyI6WyJST0xFX0FETUlOIl0sImlhdCI6MTY5MjYxNTIyOCwiZXhwIjoxNjkyNjE1ODI4fQ.YGkA56ddsZJep1_tCc_30918PbFU2MzqBYhi018Kn9Wr6XMGiLBhzHY37D-FD4n7Rnv-iM94j0cS7-XuI-UeIw",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "nombre",
+						"value": "Pepe",
+						"type": "default"
+					},
+					{
+						"key": "poblacion",
+						"value": "Logroño",
+						"type": "default"
+					},
+					{
+						"key": "edad",
+						"value": "33",
+						"type": "default"
+					},
+					{
+						"key": "h1",
+						"value": "h1",
+						"type": "default"
+					},
+					{
+						"key": "h2",
+						"value": "H2",
+						"type": "default"
+					},
+					{
+						"key": "H5",
+						"value": "h2",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\": \"xuxi\",\r\n    \"apellido\": \"perez\",\r\n    \"edad\": 5,\r\n    \"email\": \"xuxi@xuxi.com\",\r\n    \"telefono\": 6006060\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/viaje/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"viaje",
+						"1"
+					],
+					"query": [
+						{
+							"key": "var1",
+							"value": "9",
+							"disabled": true
+						},
+						{
+							"key": "var2",
+							"value": "4",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8082/viaje/1",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJsb2xpdG8iLCJhdXRob3JpdGllcyI6WyJST0xFX0FETUlOIl0sImlhdCI6MTY5MjYxNTIyOCwiZXhwIjoxNjkyNjE1ODI4fQ.YGkA56ddsZJep1_tCc_30918PbFU2MzqBYhi018Kn9Wr6XMGiLBhzHY37D-FD4n7Rnv-iM94j0cS7-XuI-UeIw",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [
+					{
+						"key": "nombre",
+						"value": "Pepe",
+						"type": "default"
+					},
+					{
+						"key": "poblacion",
+						"value": "Logroño",
+						"type": "default"
+					},
+					{
+						"key": "edad",
+						"value": "33",
+						"type": "default"
+					},
+					{
+						"key": "h1",
+						"value": "h1",
+						"type": "default"
+					},
+					{
+						"key": "h2",
+						"value": "H2",
+						"type": "default"
+					},
+					{
+						"key": "H5",
+						"value": "h2",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"origin\": \"logroño\",\r\n    \"destination\": \"srilanka\",\r\n    \"departureDate\": \"2020-01-01\",\r\n    \"arrivalDate\": \"2021-01-01\",\r\n    \"status\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8082/viaje/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"viaje",
+						"1"
+					],
+					"query": [
+						{
+							"key": "var1",
+							"value": "9",
+							"disabled": true
+						},
+						{
+							"key": "var2",
+							"value": "4",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8082/cliente/1",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJsb2xpdG8iLCJhdXRob3JpdGllcyI6WyJST0xFX0FETUlOIl0sImlhdCI6MTY5MjYxNTIyOCwiZXhwIjoxNjkyNjE1ODI4fQ.YGkA56ddsZJep1_tCc_30918PbFU2MzqBYhi018Kn9Wr6XMGiLBhzHY37D-FD4n7Rnv-iM94j0cS7-XuI-UeIw",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "nombre",
+						"value": "Pepe",
+						"type": "default"
+					},
+					{
+						"key": "poblacion",
+						"value": "Logroño",
+						"type": "default"
+					},
+					{
+						"key": "edad",
+						"value": "33",
+						"type": "default"
+					},
+					{
+						"key": "h1",
+						"value": "h1",
+						"type": "default"
+					},
+					{
+						"key": "h2",
+						"value": "H2",
+						"type": "default"
+					},
+					{
+						"key": "H5",
+						"value": "h2",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"origin\": \"logroño\",\r\n    \"destination\": \"srilanka\",\r\n    \"departureDate\": \"2020-01-01\",\r\n    \"arrivalDate\": \"2021-01-01\",\r\n    \"status\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8082/cliente/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"cliente",
+						"1"
+					],
+					"query": [
+						{
+							"key": "var1",
+							"value": "9",
+							"disabled": true
+						},
+						{
+							"key": "var2",
+							"value": "4",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8082/viaje/1",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJsb2xpdG8iLCJhdXRob3JpdGllcyI6WyJST0xFX0FETUlOIl0sImlhdCI6MTY5MjYxNTIyOCwiZXhwIjoxNjkyNjE1ODI4fQ.YGkA56ddsZJep1_tCc_30918PbFU2MzqBYhi018Kn9Wr6XMGiLBhzHY37D-FD4n7Rnv-iM94j0cS7-XuI-UeIw",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "nombre",
+						"value": "Pepe",
+						"type": "default"
+					},
+					{
+						"key": "poblacion",
+						"value": "Logroño",
+						"type": "default"
+					},
+					{
+						"key": "edad",
+						"value": "33",
+						"type": "default"
+					},
+					{
+						"key": "h1",
+						"value": "h1",
+						"type": "default"
+					},
+					{
+						"key": "h2",
+						"value": "H2",
+						"type": "default"
+					},
+					{
+						"key": "H5",
+						"value": "h2",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"origin\": \"logroño\",\r\n    \"destination\": \"srilanka\",\r\n    \"departureDate\": \"2020-01-01\",\r\n    \"arrivalDate\": \"2021-01-01\",\r\n    \"status\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8082/viaje/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"viaje",
+						"1"
+					],
+					"query": [
+						{
+							"key": "var1",
+							"value": "9",
+							"disabled": true
+						},
+						{
+							"key": "var2",
+							"value": "4",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
