@@ -1,0 +1,56 @@
+version: "3.9"
+
+services:
+  netflix-eureka-naming-server:
+    container_name: netflix-eureka-naming-server-container
+    image: netflix-eureka-naming-server-image
+    build:
+      context: ./netflix-eureka-naming-server
+      dockerfile: Dockerfile
+    ports:
+      - "8761:8761"
+    networks:
+      - network
+
+  api-gateway:
+    container_name: api-gateway-container
+    image: api-gateway-image
+    build:
+      context: ./api-gateway
+      dockerfile: Dockerfile
+    ports:
+      - "8082:8082"
+    depends_on:
+      - netflix-eureka-naming-server
+    networks:
+      - network
+
+  trip-backend:
+    container_name: trip-backend-container
+    image: trip-backend-image
+    build:
+      context: ./trip-backend
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    depends_on:
+      - netflix-eureka-naming-server
+    networks:
+      - network
+
+  trip-frontend:
+    container_name: trip-frontend-container
+    image: trip-frontend-image
+    build:
+      context: ./trip-frontend
+      dockerfile: Dockerfile
+    ports:
+      - "8081:8081"
+    depends_on:
+      - netflix-eureka-naming-server
+    networks:
+      - network
+
+networks:
+  network:
+    driver: bridge
