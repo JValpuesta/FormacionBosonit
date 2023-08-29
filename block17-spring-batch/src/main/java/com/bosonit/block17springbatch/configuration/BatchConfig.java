@@ -12,10 +12,10 @@ import com.bosonit.block17springbatch.repository.TiempoRepository;
 import com.bosonit.block17springbatch.job.writer.ResultadoItemWriter;
 import com.bosonit.block17springbatch.job.writer.TiempoItemWriter;
 import com.bosonit.block17springbatch.job.writer.TiempoRiesgoItemWriter;
+import lombok.AllArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.batch.core.*;
-import org.springframework.batch.core.configuration.annotation.EnableBatchProcessing;
 import org.springframework.batch.core.job.builder.JobBuilder;
 import org.springframework.batch.core.launch.support.RunIdIncrementer;
 import org.springframework.batch.core.repository.JobRepository;
@@ -38,7 +38,7 @@ import org.springframework.transaction.PlatformTransactionManager;
 import javax.sql.DataSource;
 
 @Configuration
-@EnableBatchProcessing
+@AllArgsConstructor
 public class BatchConfig {
 
     @Autowired
